@@ -158,8 +158,8 @@ if __name__ == "__main__":
     solver.solve_riccati(grid)
 
     t = torch.tensor([0.0, 0.5], dtype=torch.float32)
-    x = torch.tensor([[1.0, 0.0],
-                      [0.5, -0.2]], dtype=torch.float32)
+    x = torch.tensor([[[1.0, 0.0]],
+                      [[0.5, -0.2]]], dtype=torch.float32)
 
     print("value:", solver.value_function(t, x))
     print("control:", solver.markov_control(t, x))
