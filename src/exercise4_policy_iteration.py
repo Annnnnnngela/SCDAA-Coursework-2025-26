@@ -5,7 +5,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 
 from exercise1_1 import LQRRiccatiSolver
-from supervised_learning_lqr import NetDGM
+from exercise2_supervised_learning_lqr import NetDGM
 
 
 # ============================================================

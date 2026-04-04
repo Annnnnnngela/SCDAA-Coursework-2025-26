@@ -5,7 +5,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 from dataclasses import dataclass
 
-from supervised_learning_lqr import NetDGM
+from exercise2_supervised_learning_lqr import NetDGM
 
 
 # ============================================================
