@@ -152,8 +152,8 @@ def plot_loglog(x, y, xlabel, ylabel, title, filename):
 
 if __name__ == "__main__":
     # Use the same coefficient setup as in Exercise 1.1
-    H = np.array([[0.1, 0.0],
-                  [0.0, 0.2]])
+    H = np.array([[[0.1, 0.0],
+                  [0.0, 0.2]]])
     M = np.eye(2)
     C = np.eye(2)
     D = np.eye(2)
