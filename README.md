@@ -68,7 +68,7 @@ Exercise 2:
 python src/exercise2_supervised_learning_lqr.py
 
 Example outputs are provided in:
-results/exercise1/
+results/exercise2/
 
 Includes:
 
@@ -82,7 +82,7 @@ Exercise 3:
 python src/exercise3_dgm_linear_pde.py
 
 Example outputs are provided in:
-results/exercise1/
+results/exercise3/
 
 Includes:
 
@@ -96,7 +96,7 @@ Exercise 4:
 python src/exercise4_policy_iteration.py
 
 Example outputs are provided in:
-results/exercise1/
+results/exercise4/
 
 Includes:
 
