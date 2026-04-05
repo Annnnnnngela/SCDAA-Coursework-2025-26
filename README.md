@@ -54,7 +54,7 @@ Exercise 1:
 python src/exercise1_1.py
 python src/exercise1_2.py
 
-Outputs saved in:
+Example outputs are provided in:
 results/exercise1/
 
 Includes:
@@ -67,8 +67,8 @@ Includes:
 Exercise 2:
 python src/exercise2_supervised_learning_lqr.py
 
-Outputs saved in:
-results/exercise2/
+Example outputs are provided in:
+results/exercise1/
 
 Includes:
 
@@ -81,8 +81,8 @@ Includes:
 Exercise 3:
 python src/exercise3_dgm_linear_pde.py
 
-Outputs saved in:
-results/exercise3/
+Example outputs are provided in:
+results/exercise1/
 
 Includes:
 
@@ -95,8 +95,8 @@ Includes:
 Exercise 4:
 python src/exercise4_policy_iteration.py
 
-Outputs saved in:
-results/exercise4/
+Example outputs are provided in:
+results/exercise1/
 
 Includes:
 
@@ -110,8 +110,10 @@ Includes:
 
 All figures and results in the report can be reproduced by running the scripts above.
 
-- Outputs are generated during execution of each script
+- Output files are generated during execution of each script
+- By default, figures are saved in the current working directory
+- The `results/` folder is used to organise selected final outputs included in the report
 - Code runs on CPU (no GPU required)
-- Due to stochastic components (e.g. Monte Carlo simulation and neural network training), results may vary slightly between runs, but overall trends remain consistent
+- Due to stochastic components, results may vary slightly between runs, but overall trends remain consistent
 
 ---
